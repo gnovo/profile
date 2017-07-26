@@ -1,0 +1,120 @@
+body {
+  background: rgb(235, 235, 235);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: rgb(46, 53, 50);
+}
+
+h2 {
+  font-family: 'Montserrat', cursive;
+  font-size: 18px;
+  color: rgb(110, 103, 95);
+}
+
+h3 {
+  font-family: 'Montserrat', cursive;
+  font-size: 16px;
+  color: rgb(46, 53, 50);
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(163, 149, 148);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 250px;
+  width: 190px;
+  box-shadow: 3px 3px;
+  background-color; rgba(90, 90, 90, 0.1)
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+div {
+background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.text-center {
+    text-align: center;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.text-center a {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(46, 53, 50);
+}
+
+.text-center a:hover {
+    text-align: center;
+    color: rgb(220, 220, 220);
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    display: block;
+}
+
+#img-profile {
+  width: 200px;
+  height: 200px;
+  border: 3px solid;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
