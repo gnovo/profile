@@ -39,7 +39,7 @@ img {
   height: 250px;
   width: 190px;
   box-shadow: 3px 3px;
-  background-color; rgba(90, 90, 90, 0.1)
+  background-color; rgba(90, 90, 90, 0.1);
 }
 
 table {
@@ -49,46 +49,49 @@ table {
 }
 
 div {
-background: white;
-padding: 30px;
-border-radius: 4px;
-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);border: 1px solid rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
 
 .text-center {
-    text-align: center;
-    display: inline-block;
-    padding-right: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
 }
 
-.text-center a {
+.text-center a { 
   font-size: 30px;
-  text-align: center;
   color: rgb(46, 53, 50);
 }
 
 .text-center a:hover {
-    text-align: center;
-    color: rgb(220, 220, 220);
+  color: rgb(220, 220, 220);
 }
 
 .card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
-
-div {
-    display: block;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 #img-profile {
   width: 200px;
   height: 200px;
-  border: 3px solid;
+  border: 1px solid;
 }
 
 .img-circle {
@@ -97,23 +100,20 @@ div {
 
 .container {
   width: 600px;
-  margin: 0 auto; /* This automatically sets left/right margins */
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
